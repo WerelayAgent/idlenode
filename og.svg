@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080a09"/>
+      <stop offset="100%" stop-color="#020403"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8f25a"/>
+      <stop offset="50%" stop-color="#a9d8ff"/>
+      <stop offset="100%" stop-color="#ffbcd9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  
+  <!-- Subtle border -->
+  <rect x="24" y="24" width="1152" height="582" rx="32" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(100, 160) scale(0.6)">
+    <rect x="16" y="16" width="480" height="480" rx="115" fill="#101712" stroke="#c8f25a" stroke-width="3" stroke-opacity="0.3"/>
+    <line x1="168" y1="140" x2="168" y2="372" stroke="#c8f25a" stroke-width="24" stroke-linecap="round"/>
+    <line x1="168" y1="140" x2="344" y2="372" stroke="#c8f25a" stroke-width="26" stroke-linecap="round"/>
+    <line x1="344" y1="140" x2="344" y2="372" stroke="#38bdf8" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="256" cy="256" r="22" fill="#101712" stroke="#c8f25a" stroke-width="6"/>
+    <circle cx="256" cy="256" r="10" fill="#c8f25a"/>
+    <circle cx="168" cy="140" r="26" fill="#101712" stroke="#c8f25a" stroke-width="6"/>
+    <circle cx="168" cy="140" r="12" fill="#c8f25a"/>
+    <circle cx="168" cy="372" r="26" fill="#101712" stroke="#c8f25a" stroke-width="6"/>
+    <circle cx="168" cy="372" r="12" fill="#c8f25a"/>
+    <circle cx="344" cy="140" r="26" fill="#101712" stroke="#38bdf8" stroke-width="6"/>
+    <circle cx="344" cy="140" r="12" fill="#38bdf8"/>
+    <circle cx="344" cy="372" r="26" fill="#101712" stroke="#38bdf8" stroke-width="6"/>
+    <circle cx="344" cy="372" r="12" fill="#38bdf8"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="440" y="240" font-family="'Space Grotesk', -apple-system, sans-serif" font-weight="700" font-size="64" fill="#ffffff" letter-spacing="4">IDLENODE</text>
+  <text x="440" y="320" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="44" fill="url(#accentGrad)">Your idle GPU, earning.</text>
+  <text x="440" y="390" font-family="-apple-system, sans-serif" font-size="22" fill="#9ca3af">Idle GPUs in. Verified compute out. Powered by $IDLE on Robinhood Chain.</text>
+
+  <!-- Badges -->
+  <g transform="translate(440, 440)">
+    <rect width="180" height="42" rx="21" fill="#1e2922" stroke="#c8f25a" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="90" y="26" font-family="monospace" font-size="14" fill="#c8f25a" text-anchor="middle">$IDLE IS LIVE</text>
+  </g>
+  <g transform="translate(640, 440)">
+    <rect width="210" height="42" rx="21" fill="#17222c" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="105" y="26" font-family="monospace" font-size="14" fill="#38bdf8" text-anchor="middle">ROBINHOOD CHAIN</text>
+  </g>
+</svg>

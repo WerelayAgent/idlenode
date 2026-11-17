@@ -1,0 +1,19 @@
+{
+  "name": "idlenode",
+  "version": "1.0.0",
+  "description": "IdleNode ($IDLE) — Your idle GPU, earning. DePIN GPU compute network.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "depin",
+    "gpu",
+    "compute",
+    "ai",
+    "idlenode",
+    "crypto"
+  ],
+  "author": "WerelayAgent",
+  "license": "MIT"
+}
